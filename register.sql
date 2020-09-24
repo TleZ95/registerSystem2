@@ -38,7 +38,7 @@ CREATE TABLE `add2` (
   `ampor2` varchar(555) NOT NULL,
   `provice2` varchar(555) NOT NULL,
   `zip` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `add2`
@@ -64,7 +64,7 @@ CREATE TABLE `address` (
   `ampor` varchar(500) NOT NULL,
   `provice` varchar(500) NOT NULL,
   `codezip` varchar(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `address`
@@ -87,7 +87,7 @@ CREATE TABLE `history` (
   `grade` varchar(6) NOT NULL,
   `regis_year` varchar(10) NOT NULL,
   `sus_year` varchar(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `history`
@@ -122,7 +122,7 @@ CREATE TABLE `name` (
   `line` varchar(555) NOT NULL,
   `phone_h` varchar(10) NOT NULL,
   `rey` varchar(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `name`
